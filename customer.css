@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    text-decoration: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+    nav {
+        width: 100%;
+        height: 7vw;
+        background: linear-gradient(125deg, #75d847, #0fbc38);
+      }
+      .nav-container {
+        max-width: 90vw;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logonav {
+        width: 7vw;
+        object-fit: contain;
+      }
+      .search{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
